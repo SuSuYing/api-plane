@@ -1,0 +1,13 @@
+{
+  "inject": {
+    "kind": "mock"
+  },
+  "layouts": [
+    {
+      "key": "defaultcode",
+      "alias": "返回值",
+      "type": "number",
+	  "default": "200",
+    }
+  ]
+}
