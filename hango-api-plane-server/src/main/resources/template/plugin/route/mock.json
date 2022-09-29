@@ -7,7 +7,7 @@
       "key": "defaultcode",
       "alias": "返回值",
       "type": "number",
-	  "default": "200",
+      "default": "200"
     }
   ]
 }

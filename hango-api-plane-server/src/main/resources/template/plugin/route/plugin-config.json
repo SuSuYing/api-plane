@@ -240,35 +240,35 @@
       "categoryKey": "waf",
       "categoryName": "安全"
     },
-   {
-          "name": "uri-restriction",
-          "displayName": "URI黑白名单",
-          "schema": "plugin/route/uri-restriction.json",
-          "description": "URI黑白名单插件",
-          "processor": "AggregateGatewayPluginProcessor",
-          "author": "system",
-          "createTime": "1655279630000",
-          "updateTime": "1655279630000",
-          "pluginScope": "global,routeRule",
-          "pluginPriority": "3000",
-          "instructionForUse": "URI黑白名单插件",
-          "categoryKey": "security",
-          "categoryName": "安全"
-     },
-     {  
-        "name": "mock",
-          "displayName": "API MOCK",
-          "schema": "plugin/route/mock.json",
-          "description": "API MOCK插件",
-          "processor": "AggregateGatewayPluginProcessor",
-          "author": "system",
-          "createTime": "1655279630000",
-          "updateTime": "1655279630000",
-          "pluginScope": "global,routeRule",
-          "pluginPriority": "3000",
-          "instructionForUse": "API MOCK插件",
-          "categoryKey": "security",
-          "categoryName": "流量管理"
-     }
+    {
+      "name": "uri-restriction",
+      "displayName": "URI黑白名单",
+      "schema": "plugin/route/uri-restriction.json",
+      "description": "URI黑白名单插件",
+      "processor": "AggregateGatewayPluginProcessor",
+      "author": "system",
+      "createTime": "1655279630000",
+      "updateTime": "1655279630000",
+      "pluginScope": "global,routeRule",
+      "pluginPriority": "3000",
+      "instructionForUse": "URI黑白名单插件",
+      "categoryKey": "security",
+      "categoryName": "安全"
+    },
+    {
+      "name": "mock",
+      "displayName": "API MOCK",
+      "schema": "plugin/route/mock.json",
+      "description": "API MOCK插件",
+      "processor": "AggregateGatewayPluginProcessor",
+      "author": "system",
+      "createTime": "1655279630000",
+      "updateTime": "1655279630000",
+      "pluginScope": "global,routeRule",
+      "pluginPriority": "3000",
+      "instructionForUse": "API MOCK插件",
+      "categoryKey": "security",
+      "categoryName": "流量管理"
+    }
   ]
 }
