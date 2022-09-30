@@ -1,13 +1,29 @@
 {
-  "inject": {
-    "kind": "mock"
+  "formatter": {
+    "kind": "mock",
+    "type": "lua",
+    "config": {
+      "defaultcode": "&defaultcode",
+      "body": "&body"
+    }
   },
   "layouts": [
     {
       "key": "defaultcode",
-      "alias": "返回值",
+      "alias": "响应状态码",
       "type": "number",
       "default": "200"
+    },
+    {
+      "key": "body",
+      "alias": "Mock 返回结果",
+      "type": "string",
+      "default": "Mock Api OK!"
+    },
+    {
+      "key": "headers",
+      "alias": "Mock Header",
+      "type": "json"
     }
   ]
 }

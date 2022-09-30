@@ -267,7 +267,7 @@
       "pluginScope": "global,routeRule",
       "pluginPriority": "3000",
       "instructionForUse": "API MOCK插件",
-      "categoryKey": "security",
+      "categoryKey": "trafficPolicy",
       "categoryName": "流量管理"
     }
   ]
